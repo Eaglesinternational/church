@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+img{
+    display: block;
+    width: 100%;
+    max-height: 600px;
+}
+
+/*************navbar***************************************************/
+nav{
+    z-index: 2 !important;
+}
+.expand{
+    justify-content: space-around !important;
+    margin-right: 4rem !important;
+}
+.expand a{
+    margin: 0 1rem;
+}
+.expand a:hover{
+    color: orange;
+    border-bottom: 1px solid blue;
+}
+ .actives{
+    background: orange;
+    opacity: .6;
+    text-align: center;
+    border-radius: 5px;
+    transition: background 0.6s;
+}
+
+
+
+/**********************************navbar***********************************/
+
+/**********************************slider***********************************/
+
+.slider_header{
+    margin-top: -15rem;
+    font-size: 3rem;
+}
+.para{
+    margin-bottom: 2rem;
+}
+.grace {
+    margin: 0 auto;
+    background: orange;
+    opacity: 0.7;
+    width: 25%;
+    height: auto;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none;
+    
+    
+    
+}
+.base{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.carousel-caption{
+    text-align: center;
+}
+
+@media screen and (max-width: 660px) {
+    .grace{
+        align-items:center ;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .slider_header{
+        margin-top: -9rem;
+        font-size: 1rem;
+    }
+    .carousel-caption{
+        margin-bottom: -3rem !important;
+    }
+    
+}
+
+/**********************************slider***********************************/
+/**********************************event***********************************/
+.event{
+    /* background: rgba(206, 163, 85, 0.336); */
+    background: url(img/ven.avif);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -2.97rem;
+    
+    
+}
+
+.main_content{
+    flex-basis: 77%;
+}
+
+.main_contents{
+    flex-basis: 20%;
+}
+.title{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.text{
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    color: black;
+}
+
+.program{
+    margin: 0 auto;
+    margin-top: 2rem;
+    background: rgba(255, 166, 0, 0.7);
+    width: 55%;
+    height: auto;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* 
+
+.program_head{
+    margin-top: 2rem;
+   
+} */
+@media screen and (max-width: 660px) {
+    
+.main_content{
+    flex-basis: 100%;
+}
+    
+.main_contents{
+    flex-basis: 100%;
+}/* 
+.program_head{
+    margin: 0 auto;
+    margin-left: 3rem;
+   
+}
+.text{
+    font-size: 1rem;
+    word-wrap: normal;
+} */
+.text{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: black;
+}
+.program{
+    display: flex;
+    justify-content: center;
+    align-items: c;
+    /* margin: 0 auto; */
+    /* margin-top: 2rem; */
+    margin-bottom: 2rem;
+    background: rgba(255, 166, 0, 0.7);
+    width: 33%;
+    /* height: auto; */
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    padding: 0.5rem;
+     font-weight: 500; 
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none;
+}
+}
+/**********************************event end***********************************/
+/**********************************information***********************************/
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.content{
+    flex-basis: 20%;
+}
+.view{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.view:hover{
+    color: orange;
+}
+.cards{
+    border: none !important;
+}
+.cards_title{
+    font-weight: bold;
+}
+@media screen and (max-width: 690px) {
+  .content{
+    flex-basis: 100%;
+  }
+  .cards_title{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.card-text{
+    font-size: 0.5rem !important;
+}
+}
+/**********************************information***********************************/
+/**********************************testimonials***********************************/
+.top-wrapper{ background: #e3e3e3;}
+.top-wrapper img{
+  width: 300px;
+  height: 400px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+}
+/* Style your testimonial content as needed */
+
+
+
+/**************************bullentin******************************************/
+.bullentin{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bullentin1{
+    flex-basis: 17%;
+    margin-left: 4rem;
+}
+.bullentin2{
+    flex-basis: 50%;
+}
+.bullentin3{
+    flex-basis: 20%;
+    background: rgba(206, 163, 85, 0.336);
+}
+.latest_bullentin{
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+    width: 15%;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.bullentin2 h4{
+    font-weight: bold;
+}
+.bullentin2 small{
+    text-align: center;
+}
+.bullentin2 span{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.bullentin2 p{
+    text-align: justify;
+}
+.read{
+    background: rgba(255, 166, 0, 0.61);
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border-radius: 8px;       
+}
+.bullentin3 h3{
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 15%;
+    color: black;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.play{
+    width: 80%;
+    height: auto;
+   margin-left: 2rem;
+   
+}
+.message{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.sign{
+    margin-left: 1rem;
+}
+
+
+
+@media screen and (max-width: 660px) {
+    .bullentin1{
+        flex-basis: 100%;
+        margin: 2rem; 
+    }
+    .bullentin2{
+        flex-basis: 100%;
+        margin: 1rem;
+    }
+    .bullentin3{
+        flex-basis: 100%;
+    }
+    
+.latest_bullentin{
+    font-size: 1rem;
+    text-align: center !important;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.read{
+    background: rgba(255, 166, 0, 0.61);
+    padding: 0.3rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    border-radius: 8px;    
+    white-space: nowrap;  
+    font-size: 0.8rem; 
+}
+}
+/**************************bullentin end******************************************/
+/**************************verse******************************************/
+.lift{
+    background: rgba(206, 163, 85, 0.336);
+    width: 100%;
+    height: auto;
+    
+}
+.bible {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 2rem !important;
+    width: fit-content; /* Adjust the width to fit the content */
+    margin: 0 auto; /* Center horizontally using margin */
+}
+
+.bible::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 30%; /* Adjust the width of the border to your preference */
+    border-bottom: 2px solid rgba(36, 24, 3, 0.849); /* Adjust the border size and style as needed */
+    
+}
+
+.carousel-item{
+    margin-bottom: 3rem;
+}
+/* Custom Carousel Indicators */
+.carousel-indicators {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carousel-indicators li {
+    width: 10px !important; /* Adjust the size of the circle */
+    height: 10px !important; /* Adjust the size of the circle */
+    background-color: black !important; /* Circle color */
+    border-radius: 50% !important;
+    margin: 0 5px; /* Adjust the space between indicators */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.carousel-indicators.active {
+    background-color: #333; /* Active indicator color */
+}
+
+.carousel-inner {
+    /* Add styles for carousel content here */
+}
+
+/* Add any other custom styles for your carousel as needed */
+
+
+
+.bib{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 660px) {
+    .bible {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-top: 2rem !important;
+        width: fit-content; /* Adjust the width to fit the content */
+        margin: 0 auto; /* Center horizontally using margin */
+    }
+    
+    .bible::after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 30%; /* Adjust the width of the border to your preference */
+        border-bottom: 1px solid rgba(36, 24, 3, 0.849); /* Adjust the border size and style as needed */
+        
+    }
+    
+.bib{
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+}
+/**************************verse end******************************************/
+/**************************footer******************************************/
+
+footer{
+    background: rgba(51, 51, 51, 0.836);
+    display: flex;
+    justify-content: space-evenly;
+}
+.about{
+    flex-basis: 23%;
+}
+
+.links{
+    flex-basis: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.address{
+    flex-basis: 23%;
+}
+
+.connect{
+    flex-basis: 23%;
+}
+
+.about h3{
+    
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.about p{
+    text-align: center;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+}
+
+.links h3{
+    
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.links a{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    text-decoration: none;
+}
+.links a:hover{
+    color: rgba(255, 166, 0, 0.829);
+}
+
+.links hr{ 
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.address h3{
+    
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.address p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.connect h3{
+    
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.fonts{
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+}
+.book{
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.63);
+    font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.book:hover{
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    
+}
+
+.copy{
+    background: rgba(0, 0, 0, 0.575);
+}
+.right{
+    color: rgba(255, 255, 255, 0.63);
+   padding: 1rem;
+}
+
+
+@media screen and (max-width: 660px) {
+
+    
+footer{
+    flex-direction: column;
+}
+.about{
+    flex-basis: 100%;
+}
+
+.links{
+    flex-basis: 100%;
+}
+
+.address{
+    flex-basis: 100%;
+}
+
+.connect{
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+}
+
+}
+/**************************footer end******************************************/
+
+
+
